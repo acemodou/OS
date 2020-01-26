@@ -10,20 +10,22 @@ import subprocess
 # print("After changing directory {}: ".format(os.getcwd()))
 
 
-#os.chdir('C:/Users/mjaw/Desktop/')
+# os.chdir('C:/Users/mjaw/Desktop/')
+
 #os.mkdir can make only a single directory in the top level
-#os.mkdir("AJI")
+
+# os.mkdir("AJI")
 
 #os.makedirs can make top level and sublevel so is more preferred.
-#os.makedirs("House/budget")
+# os.makedirs("House/budget")
 
-#os.chdir('C:/Users/mjaw/Desktop/House')
-#os.removedirs('House/budget')
-#print(os.listdir())
+# os.chdir('C:/Users/mjaw/Desktop/House')
+# os.removedirs('House/budget')
+# print(os.listdir())
 
 #This tells you when a folder or file was created.
 # mod_time = os.stat('Personal').st_mtime
-# # print(datetime.fromtimestamp(mod_time))
+# print(datetime.fromtimestamp(mod_time))
 
 # Traverse through directories in python
 
